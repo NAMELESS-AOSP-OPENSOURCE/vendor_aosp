@@ -33,6 +33,9 @@
         <!-- Contribute app shortcuts to centralized AppSearch index -->
         <item>systemui/shortcut_appsearch_integration=true</item>
 
+        <!-- Contribute app shortcuts to centralized AppSearch index -->
+        <item>systemui/shortcut_appsearch_integration=true</item>
+
         <!--
             Device Personalization Services (AiAi)
         -->
