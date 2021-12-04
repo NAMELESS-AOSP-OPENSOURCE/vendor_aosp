@@ -208,4 +208,7 @@ $(call inherit-product, vendor/gapps/config.mk)
 # RRO Overlays
 $(call inherit-product, vendor/aosp/config/rro_overlays.mk)
 
+# Themes
+$(call inherit-product, vendor/themes/common.mk)
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
