@@ -197,6 +197,9 @@ PRODUCT_COPY_FILES += \
 #    frameworks/native/data/etc/android.hardware.biometrics.face.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.biometrics.face.xml
 #endif
 
+# Enable ccache
+USE_CCACHE := true
+
 # Audio
 $(call inherit-product, vendor/aosp/config/audio.mk)
 
