@@ -388,4 +388,6 @@
     <icon drawable="@drawable/themed_icon_zenly" package="app.zenly.locator" />
     <icon drawable="@drawable/themed_icon_zona" package="mobi.zona" />
     <icon drawable="@drawable/themed_icon_zoom" package="us.zoom.videomeetings" />
+    <icon drawable="@drawable/themed_icon_oneplus_camera" package="com.oneplus.camera" />
+    <icon drawable="@drawable/themed_icon_oneplus_gallery" package="com.oneplus.gallery" />
 </icons>
