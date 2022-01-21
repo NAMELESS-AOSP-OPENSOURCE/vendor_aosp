@@ -1,0 +1,41 @@
+#!/bin/sh
+if [ "$1" ]
+then
+    FILE=$1
+    NAME=$(basename $FILE)
+    SIZE=$(du -b $FILE | awk '{print $1}')
+    MD5=$(md5sum $FILE | awk '{print $1}')
+    OUT=${FILE%/*}
+    DEVICE=${OUT##*/}
+
+    DATE=`grep ro.build.date.utc $OUT/system/build.prop | sed "s/ro.build.date.utc=//"`
+    DATE_S=`date "+%Y_%m_%d" -d @$DATE`
+    DATE=$(expr "$DATE" '*' 1000)
+
+    JSON_DEVICE_DIR=ota/$DEVICE
+    JSON=$JSON_DEVICE_DIR/ota.json
+
+    CHANGELOG_FILE=$JSON_DEVICE_DIR"/changelog_"$DATE_S".txt"
+
+    if [ ! -d $JSON_DEVICE_DIR ]; then
+        mkdir -p $JSON_DEVICE_DIR
+    fi
+
+    VERSION="twelve"
+
+    # Generate ota json
+    :> $JSON
+    echo "{" >> $JSON
+    echo "    \"version\": \""$VERSION"\"," >> $JSON
+    echo "    \"date\": \""$DATE"\"," >> $JSON
+    echo "    \"url\": \"https://sourceforge.net/projects/nameless-aosp/files/"$DEVICE"/"$NAME"/download\"," >> $JSON
+    echo "    \"filename\": \""$NAME"\"," >> $JSON
+    echo "    \"filesize\": \""$SIZE"\"," >> $JSON
+    echo "    \"md5\": \""$MD5"\"" >> $JSON
+    echo "}" >> $JSON
+
+    touch $CHANGELOG_FILE
+
+    echo "Succesfully generated json: "$JSON
+    echo "Please fill in changelog to "$CHANGELOG_FILE
+fi

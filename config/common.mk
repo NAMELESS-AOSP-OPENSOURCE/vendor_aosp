@@ -200,6 +200,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     GamingMode
 
+# Updates
+ifeq ($(CUSTOM_BUILD_TYPE),Official)
+PRODUCT_PACKAGES += \
+    Updates
+PRODUCT_COPY_FILES += \
+    vendor/aosp/config/permissions/privapp-permissions-updates.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-updates.xml
+endif
+
 # Enable ccache
 USE_CCACHE := true
 
