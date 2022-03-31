@@ -4,6 +4,7 @@ then
     FILE=$1
     NAME=$(basename $FILE)
     SIZE=$(du -b $FILE | awk '{print $1}')
+    SHA1=$(sha1sum $FILE | awk '{print $1}')
     MD5=$(md5sum $FILE | awk '{print $1}')
     OUT=${FILE%/*}
     DEVICE=${OUT##*/}
@@ -29,6 +30,7 @@ then
     echo "    \"version\": \""$VERSION"\"," >> $JSON
     echo "    \"date\": \""$DATE"\"," >> $JSON
     echo "    \"url\": \"https://sourceforge.net/projects/nameless-aosp/files/"$DEVICE"/"$NAME"/download\"," >> $JSON
+    echo "    \"id\": \""$SHA1"\"," >> $JSON
     echo "    \"filename\": \""$NAME"\"," >> $JSON
     echo "    \"filesize\": \""$SIZE"\"," >> $JSON
     echo "    \"md5\": \""$MD5"\"" >> $JSON
