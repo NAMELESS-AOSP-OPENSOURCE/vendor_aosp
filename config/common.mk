@@ -221,6 +221,10 @@ PRODUCT_COPY_FILES += \
     vendor/aosp/config/permissions/privapp-permissions-updates.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-updates.xml
 endif
 
+# Clean package_cache
+PRODUCT_COPY_FILES += \
+    vendor/aosp/config/init/clean_cache.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/clean_cache.sh
+
 # Enable ccache
 USE_CCACHE := true
 
