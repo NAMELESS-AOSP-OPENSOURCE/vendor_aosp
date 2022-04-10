@@ -238,7 +238,7 @@ $(call inherit-product, vendor/aosp/config/bootanimation.mk)
 $(call inherit-product, vendor/gapps/config.mk)
 
 # Lawnchair
-$(call inherit-product, vendor/lawnchair/lawnchair.mk)
+#$(call inherit-product, vendor/lawnchair/lawnchair.mk)
 
 # RRO Overlays
 $(call inherit-product, vendor/aosp/config/rro_overlays.mk)
