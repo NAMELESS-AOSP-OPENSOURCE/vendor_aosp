@@ -9,7 +9,7 @@ then
     OUT=${FILE%/*}
     DEVICE=${OUT##*/}
 
-    DATE=`grep ro.build.date.utc $OUT/system/build.prop | sed "s/ro.build.date.utc=//"`
+    DATE=`grep ro.nameless.build_date_utc $OUT/system/build.prop | sed "s/ro.nameless.build_date_utc=//"`
     DATE_S=`date "+%Y_%m_%d" -d @$DATE`
     DATE=$(expr "$DATE" '*' 1000)
 
