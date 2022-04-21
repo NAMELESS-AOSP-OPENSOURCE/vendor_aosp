@@ -3,6 +3,7 @@
    <string-array name="config_device_list" translatable="false">
       <item>alioth</item>
       <item>avicii</item>
+      <item>davinci</item>
       <item>instantnoodle</item>
       <item>instantnoodlep</item>
       <item>kebab</item>
@@ -14,6 +15,7 @@
    <string-array name="config_maintainer_name_list" translatable="false">
       <item>AoiSan</item>
       <item>Manikantaraavi</item>
+      <item>Ahmed Fouad</item>
       <item>Chris Chen</item>
       <item>Chris Chen</item>
       <item>Chandu Dyavanapelli</item>
@@ -25,6 +27,7 @@
    <string-array name="config_maintainer_link_list" translatable="false">
       <item>https://t.me/AoiSan</item>
       <item>https://t.me/AlwaysAngry</item>
+      <item>https://t.me/AMWolfstein</item>
       <item>https://t.me/cjh1249131356</item>
       <item>https://t.me/cjh1249131356</item>
       <item>https://t.me/Chandu_Dyavanapelli</item>
@@ -36,6 +39,7 @@
    <string-array name="config_donate_list" translatable="false">
       <item>https://www.paypal.com/paypalme/eidoron1</item>
       <item>https://www.paypal.com/paypalme/Manikantaraavi</item>
+      <item>https://www.paypal.com/paypalme/AMWolfstein</item>
       <item>https://www.paypal.com/paypalme/cjh1356</item>
       <item>https://www.paypal.com/paypalme/cjh1356</item>
       <item>https://www.paypal.com/paypalme/ChanduDyavanapelli</item>
@@ -47,6 +51,7 @@
    <string-array name="config_group_list" translatable="false">
       <item>https://t.me/AoiSan</item>
       <item>https://t.me/nameless_ophub</item>
+      <item>https://t.me/Fouadhub</item>
       <item>https://t.me/nameless_ophub</item>
       <item>https://t.me/nameless_ophub</item>
       <item>https://t.me/nameless_ophub</item>
