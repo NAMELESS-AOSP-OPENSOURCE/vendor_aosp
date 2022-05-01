@@ -232,6 +232,10 @@ PRODUCT_COPY_FILES += \
 # Enable ccache
 USE_CCACHE := true
 
+# Wallpapers
+PRODUCT_PACKAGES += \
+    Backgrounds
+
 # Audio
 $(call inherit-product, vendor/aosp/config/audio.mk)
 
