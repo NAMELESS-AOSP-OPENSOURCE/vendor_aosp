@@ -236,6 +236,10 @@ USE_CCACHE := true
 PRODUCT_PACKAGES += \
     Backgrounds
 
+# Speech rerecognition
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,vendor/aosp/prebuilt/product/usr/,$(TARGET_COPY_OUT_PRODUCT)/usr)
+
 # Audio
 $(call inherit-product, vendor/aosp/config/audio.mk)
 
