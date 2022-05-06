@@ -254,4 +254,7 @@ $(call inherit-product, vendor/aosp/config/rro_overlays.mk)
 # Themes
 $(call inherit-product, vendor/themes/common.mk)
 
+# Themed icons
+$(call inherit-product, packages/overlays/ThemeIcons/config.mk)
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
