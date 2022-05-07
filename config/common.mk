@@ -217,6 +217,10 @@ endif
 PRODUCT_PACKAGES += \
     GamingMode
 
+# Launcher
+PRODUCT_PACKAGES += \
+    Launcher3QuickStep
+
 # Updates
 ifeq ($(CUSTOM_BUILD_TYPE),Official)
 PRODUCT_PACKAGES += \
