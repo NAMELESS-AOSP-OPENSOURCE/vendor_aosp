@@ -14,7 +14,6 @@
       <item>RMX1971</item>
       <item>RMX2061</item>
       <item>sweet</item>
-      <item>vayu</item>
    </string-array>
 
    <string-array name="config_maintainer_name_list" translatable="false">
@@ -31,7 +30,6 @@
       <item>KSSRAO</item>
       <item>NEMESIS_99999</item>
       <item>BasharatKar</item>
-      <item>clhex</item>
    </string-array>
 
    <string-array name="config_maintainer_link_list" translatable="false">
@@ -48,7 +46,6 @@
       <item>https://t.me/kssrao13882</item>
       <item>https://t.me/NEMESIS_99999</item>
       <item>https://t.me/Ba_Sh_ArAT</item>
-      <item>https://t.me/clhexftw</item>
    </string-array>
 
    <string-array name="config_donate_list" translatable="false">
@@ -65,7 +62,6 @@
       <item>https://www.paypal.com/paypalme/cjh1356</item>
       <item>https://www.paypal.com/paypalme/cjh1356</item>
       <item>https://www.paypal.com/paypalme/BasharatKar</item>
-      <item>https://www.paypal.com/paypalme/cjh1356</item>
    </string-array>
 
    <string-array name="config_group_list" translatable="false">
@@ -82,6 +78,5 @@
       <item>https://t.me/Realme5Pro_Global</item>
       <item>https://t.me/realme6pro</item>
       <item>https://t.me/basharatbuilds</item>
-      <item>https://t.me/clhex_chat</item>
    </string-array>
 </resources>
