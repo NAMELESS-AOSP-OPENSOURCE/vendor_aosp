@@ -20,7 +20,7 @@
    </string-array>
 
    <string-array name="config_maintainer_name_list" translatable="false">
-      <item>AoiSan</item>
+      <item>Yohan_Black</item>
       <item>Manikantaraavi</item>
       <item>Ahmed Fouad</item>
       <item>Huha</item>
@@ -39,7 +39,7 @@
    </string-array>
 
    <string-array name="config_maintainer_link_list" translatable="false">
-      <item>https://t.me/AoiSan</item>
+      <item>https://t.me/Yohan_Black</item>
       <item>https://t.me/AlwaysAngry</item>
       <item>https://t.me/AMWolfstein</item>
       <item>https://t.me/Cursed0007</item>
@@ -58,7 +58,7 @@
    </string-array>
 
    <string-array name="config_donate_list" translatable="false">
-      <item>https://www.paypal.com/paypalme/eidoron1</item>
+      <item>https://www.paypal.com/paypalme/ubanuelaa</item>
       <item>https://www.paypal.com/paypalme/Manikantaraavi</item>
       <item>https://www.paypal.com/paypalme/AMWolfstein</item>
       <item>https://www.paypal.com/paypalme/cjh1356</item>
@@ -77,7 +77,7 @@
    </string-array>
 
    <string-array name="config_group_list" translatable="false">
-      <item>https://t.me/dokuhebispit</item>
+      <item>https://t.me/YohanBlackSupport</item>
       <item>https://t.me/nameless_ophub</item>
       <item>https://t.me/Fouadhub</item>
       <item>https://t.me/nameless_ophub</item>
