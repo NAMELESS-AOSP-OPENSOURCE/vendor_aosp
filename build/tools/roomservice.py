@@ -39,8 +39,8 @@ remove_manifest = ".repo/manifests/snippets/remove.xml"
 custom_local_manifest = ".repo/local_manifests/nameles_manifest.xml"
 custom_default_revision = "twelve"
 custom_dependencies = "nameless.dependencies"
-org_manifest = "nameless-devices"  # leave empty if org is provided in manifest
-org_display = "nameless-Devices"  # needed for displaying
+org_manifest = "nameless"  # leave empty if org is provided in manifest
+org_display = "Nameless-AOSP"  # needed for displaying
 
 github_auth = None
 
