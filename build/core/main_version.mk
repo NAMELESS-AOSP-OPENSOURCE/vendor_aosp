@@ -1,3 +1,6 @@
+# Versioning System
+CUSTOM_PLATFORM_RELEASE_OR_CODENAME := 12L
+
 # Build fingerprint
 ifeq ($(BUILD_FINGERPRINT),)
 BUILD_NUMBER_CUSTOM := $(shell date -u +%H%M)
@@ -18,4 +21,5 @@ ADDITIONAL_SYSTEM_PROPERTIES  += \
     ro.nameless.version.display=$(CUSTOM_VERSION) \
     ro.nameless.build_date=$(CUSTOM_BUILD_DATE) \
     ro.nameless.build_date_utc=$(CUSTOM_BUILD_DATE_UTC) \
-    ro.nameless.build_type=$(CUSTOM_BUILD_TYPE)
+    ro.nameless.build_type=$(CUSTOM_BUILD_TYPE) \
+    ro.nameless.settings.android_version=$(CUSTOM_PLATFORM_RELEASE_OR_CODENAME)
